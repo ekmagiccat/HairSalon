@@ -43,7 +43,7 @@ Install the tools that are introduced in [this series of lessons on LearnHowToPr
 - Right click and select Refresh All.
 - Your new database will appear!
 
-![Hair Salon Visual Tables with Foreign Key](RestaurantTables.png)
+![Hair Salon Visual Tables with Foreign Key](HairSalonTables.png)
 
 ### Set Up and Run Project
 
