@@ -1,13 +1,14 @@
 div#footer {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
+  display: block;
+  font-size: 18px;
   width: 100%;
   justify-content: center;
   position: absolute;
-  color: #ccc;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
   background: #597bd9;
-  padding: 8px;
 }
 
 body {
@@ -16,11 +17,17 @@ body {
   margin-left: auto;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   background-image: url("https://scontent.cdninstagram.com/v/t51.2885-15/272090504_5131695820174008_5391596771454399947_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=URWu0EfgGnMAX_kbNTb&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfBfWy5Q-zzU0l97VWbXiiHswz8zcq4OqXrB2bmOgprbnA&oe=64CFC7EB");
   background-size: 1000px;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
+}
+
+ul {
+  font-size: 22px;
+  list-style: inside;
+  color: white;
 }
 
 a {

@@ -71,7 +71,6 @@ namespace HairSalon.Controllers
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
-
     }
 }
 
