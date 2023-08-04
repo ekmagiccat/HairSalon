@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using HairSalon.Models;
@@ -43,7 +44,7 @@ namespace HairSalon.Controllers
         public ActionResult Details(int id)
         {
             Client thisClient = _db.Clients
-                                .Include(client => client.Stylists)
+                                .Include(client => client.Stylist)
                                 .FirstOrDefault(client => client.ClientId == id);
             return View(thisClient);
         }

@@ -18,8 +18,7 @@ namespace HairSalon.Controllers
 
         public ActionResult Index()
         {
-            List<> model = _db.Stylists
-                                  .ToList();
+            List<Stylist> model = _db.Stylists.ToList();
             return View(model);
         }
 
@@ -31,7 +30,7 @@ namespace HairSalon.Controllers
         [HttpPost]
         public ActionResult Create(Stylist stylist)
         {
-            _db.Categories.Add(stylist);
+            _db.Stylists.Add(stylist);
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
